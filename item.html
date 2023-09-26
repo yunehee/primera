@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMERA</title>
+    <link rel="icon" href="img/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/load_data.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/item.js"></script>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/item.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="btn_top">TOP</div>
+        <header class="header">
+            <div class="h_top">
+                <div class="logo"><a href="index.html">로고</a></div>
+                <div class="header_sec1">
+                    <div class="login"><a href="#">LOGIN</a></div>
+                    <div class="join"><a href="#">JOIN</a></div>
+                    <div class="search"><a href="#">SEARCH</a></div>
+                </div>
+            </div>
+            <div class="h_bot">
+                <div class="icon_ham"></div>
+                <div class="hamberg_pan">
+                    <div class="ham_body">
+                        <div class="ham_menu_top">
+                            <div class="ham_close">닫기</div>
+                            <div class="ham_login">로그인</div>
+                        </div>
+                        <div class="ham_menu">
+                            <div class="ham_menu_title"><a href="product.html?cate_no=0">BEST&NEW</a></div>
+                            <div class="ham_menu_item_box">
+                                <ul>
+                                    <li><a href="product.html?cate_no=0">베스트셀러</a></li>
+                                    <li><a href="product.html?cate_no=1">신제품</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ham_menu">
+                            <div class="ham_menu_title"><a href="product.html?cate_no=2">FAICIAL</a></div>
+                            <div class="ham_menu_item_box">
+                                <ul>
+                                    <li><a href="product.html?cate_no=2">클렌징</a></li>
+                                    <li><a href="product.html?cate_no=3">워터/토너</a></li>
+                                    <li><a href="product.html?cate_no=4">세럼/에센스</a></li>
+                                    <li><a href="product.html?cate_no=5">에멀전</a></li>
+                                    <li><a href="product.html?cate_no=6">크림</a></li>
+                                    <li><a href="product.html?cate_no=7">맨</a></li>
+                                    <li><a href="product.html?cate_no=8">베이비</a></li>
+                                    <li><a href="product.html?cate_no=9">스페셜 케어</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ham_menu">
+                            <div class="ham_menu_title"><a href="product.html?cate_no=10">BODY&HAIR</a></div>
+                            <div class="ham_menu_item_box">
+                                <ul>
+                                    <li><a href="product.html?cate_no=10">바디워시</a></li>
+                                    <li><a href="product.html?cate_no=11">바디로션</a></li>
+                                    <li><a href="product.html?cate_no=12">헤어</a></li>
+                                    <li><a href="product.html?cate_no=13">핸드케어</a></li>
+                                    <li><a href="product.html?cate_no=14">시크릿케어</a></li>
+                                    <li><a href="product.html?cate_no=15">디퓨져</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ham_menu">
+                            <div class="ham_menu_title">EVENT</div>
+                            <div class="ham_menu_item_box">
+                                <ul>
+                                    <li>프리매니아</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ham_menu">
+                            <div class="ham_menu_title">PRIMERA STORY</div>
+                            <div class="ham_menu_item_box">
+                                <ul>
+                                    <li>브랜드 스토리</li>
+                                    <li>캠페인</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h_bot_logo h_sm_icon"><a href="index.html">로고</a></div>
+                <ul class="menu_ul">
+                    <li class="menu_li"><a href="product.html?cate_no=0">BEST&NEW</a></li>
+                    <li class="menu_li"><a href="product.html?cate_no=2">FAICIAL</a></li>
+                    <li class="menu_li"><a href="product.html?cate_no=10">BODY&HAIR</a></li>
+                    <li class="menu_li"><a href="#">EVENT</a></li>
+                    <li class="menu_li"><a href="#">PRIMERA STORY</a></li>
+                    <li class="pan">
+                        <div class="contents_area">
+                            <div class="pan_menu pan_menu1">
+                                <div class="pan_menu_L">
+                                    <div><a href="product.html?cate_no=0">베스트셀러</a></div>
+                                    <div><a href="product.html?cate_no=1">신제품</a></div>
+                                </div>
+                                <div class="pan_menu_R">
+                                    <div class="gnb_banner">
+                                        <a href="item.html?cate_no=2&item_no=2">
+                                            <img src="img/gnb_banner/gnb_banner1.jpg" alt="">
+                                            <div>페이셜 마일드 필링</div>
+                                        </a>
+                                    </div>
+                                    <div class="gnb_banner">
+                                        <a href="item.html?cate_no=3&item_no=1">
+                                            <img src="img/gnb_banner/gnb_banner2.jpg" alt="">
+                                            <div>오가니언스 워터리 에센스</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pan_menu pan_menu2">
+                                <div class="pan_menu_L">
+                                    <div><a href="product.html?cate_no=2">클렌징</a></div>
+                                    <div><a href="product.html?cate_no=3">워터/토너</a></div>
+                                    <div><a href="product.html?cate_no=4">세럼/에센스</a></div>
+                                    <div><a href="product.html?cate_no=5">에멀전</a></div>
+                                    <div><a href="product.html?cate_no=6">크림</a></div>
+                                    <div><a href="product.html?cate_no=7">맨</a></div>
+                                    <div><a href="product.html?cate_no=8">베이비</a></div>
+                                    <div><a href="product.html?cate_no=9">스페셜 케어</a></div>
+                                </div>
+                                <div class="pan_menu_R">
+                                    <div class="gnb_banner">
+                                        <a href="item.html?cate_no=6&item_no=2">
+                                            <img src="img/gnb_banner/gnb_banner3.jpg" alt="">
+                                            <div>알파인 베리 워터리 크림</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pan_menu pan_menu3">
+                                <div class="pan_menu_L">
+                                    <div><a href="product.html?cate_no=10">바디워시</a></div>
+                                    <div><a href="product.html?cate_no=11">바디로션</a></div>
+                                    <div><a href="product.html?cate_no=12">헤어</a></div>
+                                    <div><a href="product.html?cate_no=13">핸드케어</a></div>
+                                    <div><a href="product.html?cate_no=14">시크릿케어</a></div>
+                                    <div><a href="product.html?cate_no=15">디퓨져</a></div>
+                                </div>
+                                <div class="pan_menu_R">
+                                    <div class="gnb_banner">
+                                        <a href="item.html?cate_no=10&item_no=2">
+                                            <img src="img/gnb_banner/gnb_banner4.png" alt="">
+                                            <div>아로마 바디 스크럽 워시 프레시-업</div>
+                                        </a>
+                                    </div>
+                                    <div class="gnb_banner">
+                                        <a href="item.html?cate_no=14&item_no=1">
+                                            <img src="img/gnb_banner/gnb_banner5.jpg" alt="">
+                                            <div>후리 앤 후리</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pan_menu pan_menu4">
+                                <div class="pan_menu_L">
+                                    <div>프리매니아</div>
+                                </div>
+                                <div class="pan_menu_R">
+                                    <div class="gnb_banner">
+                                        <a href="">
+                                            <img src="img/gnb_banner/gnb_banner6.png" alt="">
+                                            <div>프리메라 대학생 서포터즈 primania</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pan_menu pan_menu5">
+                                <div class="pan_menu_L">
+                                    <div>브랜드 스토리</div>
+                                    <div>캠페인</div>
+                                </div>
+                                <div class="pan_menu_R">
+                                    <div class="gnb_banner">
+                                        <a href="">
+                                            <img src="img/gnb_banner/gnb_banner7.png" alt="">
+                                            <div>뉴스레터 16호</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="icon_search h_sm_icon"></div>
+            </div>
+        </header>
+    
+        <main class="main">
+            <div class="contents_area">
+                <div class="item_info_top">
+                    <div class="item_img_box">
+                        <!-- <img src="img/items/best/best1.png" alt="">
+                        <div class="magnifier"></div> -->
+                    </div>
+                    <div class="item_info_top_R">
+                        <!-- <div class="item_title">바하 버블 필링 클렌저</div>
+                        <div class="item_desc">바하 버블이 데일리 필링과 트러블 진정을 도와주는 솝프리 약산성 클렌징폼</div>
+                        <div class="item_line"></div>
+                        <table>
+                            <tr class="item_o_price">
+                                <td>소비자가</td>
+                                <td>30,000원</td>
+                            </tr>
+                            <tr class="item_s_price">
+                                <td>판매가</td>
+                                <td>20,000원</td>
+                            </tr>
+                            <tr class="delivery_price">
+                                <td>배송비</td>
+                                <td>2,500원</td>
+                            </tr>
+                        </table> -->
+                        <div class="selected_option_box">
+                            <div class="selected_item_title">바하 버블 필링 클렌저</div>
+                            <div class="selected_option_bot">
+                                <div class="selected_count_box">
+                                    <div class="selected_count_btn down">-</div>
+                                    <input type="text" class="selected_count" value="0">
+                                    <div class="selected_count_btn up">+</div>
+                                </div>
+                                <div class="selected_price_box">
+                                    <div class="selected_o_price">30000원</div>
+                                    <div class="selected_s_price">20000원</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="final_box">
+                            <span>총 상품금액(수량) :</span>
+                            <span class="final_price">20000원</span>
+                            <span class="final_count">(1개)</span>
+                        </div>
+                        <div class="purchase_box">
+                            <div class="purchase_btn add_cart">ADD TO CART</div>
+                            <div class="purchase_btn buy_now">BUY NOW</div>
+                            <div class="purchase_btn wish_list">WISH LIST</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item_info_bot">
+                    <div class="item_info_sec1" id="item_info_sec1">
+                        <ul class="item_tab_menu">
+                            <li class="btn_section item_tab_active"><a href="#item_info_sec1">상품상세정보</a></li>
+                            <li class="btn_section"><a href="#item_info_sec2">상품사용후기</a></li>
+                            <li class="btn_section"><a href="#item_info_sec3">상품 Q&A</a></li>
+                            <li class="btn_section"><a href="#item_info_sec4">반품교환정보</a></li>
+                        </ul>
+                        <div class="sec_inner_box">
+                            <img src="img/items/cleansing/cleansing1-1.jpg" alt="">
+                            <img src="img/items/cleansing/cleansing1-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item_info_sec2" id="item_info_sec2">
+                        <ul class="item_tab_menu">
+                            <li class="btn_section"><a href="#item_info_sec1">상품상세정보</a></li>
+                            <li class="btn_section item_tab_active"><a href="#item_info_sec2">상품사용후기</a></li>
+                            <li class="btn_section"><a href="#item_info_sec3">상품 Q&A</a></li>
+                            <li class="btn_section"><a href="#item_info_sec4">반품교환정보</a></li>
+                        </ul>
+                        <div class="sec_inner_box">
+                            <div class="inner_txt">게시물이 없습니다.</div>
+                        </div>
+                    </div>
+                    <div class="item_info_sec3" id="item_info_sec3">
+                        <ul class="item_tab_menu">
+                            <li class="btn_section"><a href="#item_info_sec1">상품상세정보</a></li>
+                            <li class="btn_section"><a href="#item_info_sec2">상품사용후기</a></li>
+                            <li class="btn_section item_tab_active"><a href="#item_info_sec3">상품 Q&A</a></li>
+                            <li class="btn_section"><a href="#item_info_sec4">반품교환정보</a></li>
+                        </ul>
+                        <div class="sec_inner_box">
+                            <div class="inner_txt">게시물이 없습니다.</div>
+                        </div>
+                    </div>
+                    <div class="item_info_sec4" id="item_info_sec4">
+                        <ul class="item_tab_menu">
+                            <li class="btn_section"><a href="#item_info_sec1">상품상세정보</a></li>
+                            <li class="btn_section"><a href="#item_info_sec2">상품사용후기</a></li>
+                            <li class="btn_section"><a href="#item_info_sec3">상품 Q&A</a></li>
+                            <li class="btn_section item_tab_active"><a href="#item_info_sec4">반품교환정보</a></li>
+                        </ul>
+                        <div class="sec_inner_box">
+                            <div class="return_info">
+                                <div class="return_info_title">배송지역</div>
+                                <div class="return_info_desc">- 전국 가능 (군부대 일부 지역은 제외)</div>
+    
+                                <div class="return_info_title">배송기간</div>
+                                <div class="return_info_desc">- 입금 확인 후 2~4일 가량 소요되며, 지역별 택배업체 사정에 따라 약간의 차이가 있을 수 있습니다.</div>
+                                <div class="return_info_desc">- 연휴/공휴일 포함 주문 또는 일부 도서지역/사서함 배송 주문은 2~3일 가량 추가 소요될 수 있습니다.</div>
+    
+                                <div class="return_info_title">배송비</div>
+                                <div class="return_info_desc">- 할인 적용 후 최종 결제금액 20,000원 이상 구매시 무료배송(뷰티포인트 포함)</div>
+                                <div class="return_info_desc">- 합산금액 20,000원 미만 주문시 배송비가 부과됩니다. (도서산간 지역 추가비용 없음)</div>
+                                <div class="return_info_desc">- 일부 상품의 경우, 구매수량 단위로 배송비가 부과될 수 있습니다.</div>
+    
+                                <div class="return_info_title">교환/반품이 가능한 경우</div>
+                                <div class="return_info_desc">- 단순 변심, 착오 구매에 따른 교환/반품은 상품을 공급받은 날부터 7일 이내에 가능합니다. (배송비 고객 부담)</div>
+                                <div class="return_info_desc">- 단, 일부 제품의 경우 포장을 개봉하였거나 포장이 훼손되어 상품가치가 상실된 경우에는 교환 및 반품이 불가능합니다. (상품 확인을 위하여 포장 훼손한 경우는 제외)</div>
+                                <div class="return_info_desc">- 공급 받으신 상품 내용이 표시, 광고내용과 다르거나 다르게 이행된 경우에는 그 상품을 공급받은 날부터 3개월 이내, 그 사실을 안 날 또는 알 수 있었던 날부터 30일 이내 청약철회가 가능합니다. (배송비 회사 부담)</div>
+    
+                                <div class="return_info_title">교환/반품이 불가능한 경우</div>
+                                <div class="return_info_desc">- 소비자에게 책임이 있는 사유로 재화등이 멸실되거나 훼손된 경우(재화의 내용을 확인하기 위하여 포장을 훼손한 경우는 제외)</div>
+                                <div class="return_info_desc">- 소비자의 사용 또는 일부 소비로 재화등의 가치가 현저히 감소한 경우</div>
+                                <div class="return_info_desc">- 시간이 지나 다시 판매하기 곤란할 정도로 재화등의 가치가 현저히 감소한 경우</div>
+                                <div class="return_info_desc">- 복제가 가능한 재화등의 포장을 훼손한 경우</div>
+                                <div class="return_info_desc">- 소비자의 주문에 따라 개별적으로 생산되는 재화등 또는 이와 유사한 재화등에 대하여 청약철회등을 인정하는 경우 통신판매업자에게 회복할 수 없는 중대한 피해가 예상되는 경우로서 사전에 해당 거래에 대하여 별도로 그 사실을 고지하고 소비자의 서면(전자문서 포함)에 의한 동의를 받은 경우</div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <footer class="footer">
+            <div class="contents_area">
+                <div class="sns_box">
+                    <div class="facebook"></div>
+                    <div class="youtube"></div>
+                    <div class="instagram"></div>
+                </div>
+                <div class="footer_bot">
+                    <div class="footer_logo"></div>
+                    <div class="footer_info">
+                        <div class="footer_menu">
+                            <div>
+                                회사소개
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                서비스이용약관
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                UGC이용약관
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                개인정보처리방침
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                영상정보처리방침
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                뷰티포인트
+                                <div class="v_line"></div>
+                            </div>
+                            <div>
+                                사이트맵
+                            </div>
+                        </div>
+                        <div>고객서비스센터(수신자요금부담)080-000-0000 (월~금 : AM 09:00 ~ PM 06:00)</div>
+                        <div>ⓒ AMOREPACIFIC CORPORATION. All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

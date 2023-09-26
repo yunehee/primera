@@ -1,0 +1,395 @@
+.main {
+    padding-top: 190px;
+}
+.item_info_top {
+    width: 100%;
+    overflow: hidden;
+}
+.item_img_box {
+    width: 40%;
+    float: left;
+    text-align: center;
+    position: relative;
+
+    overflow: hidden;
+}
+.item_img_box > img {
+    width: 70%;
+}
+.item_img_box > .magnifier {
+    width: 100px;
+    height: 100px;
+    transform: scale(1.5);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    box-sizing: border-box;
+    border: 1px solid;
+    display: none;
+}
+.item_img_box:hover > .magnifier {
+    display: block;
+}
+.item_info_top_R {
+    width: 60%;
+    float: right;
+}
+.item_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.item_desc {
+    width: 100%;
+    font-size: 14px;
+}
+.item_line {
+    width: 100%;
+    height: 1px;
+    background: #555;
+    margin: 20px 0 10px;
+}
+
+table {
+    width: 100%;
+
+}
+tr {
+    width: 100%;
+    height: 40px;
+}
+td:nth-child(1) {
+    width: 20%;
+    font-size: 14px;
+}
+
+.item_o_price > td:nth-child(2) {
+    text-decoration: line-through;
+    color: #555;
+}
+.item_s_price > td:nth-child(2) {
+    font-size: 18px;
+    font-weight: 900;
+    color: red;
+}
+
+
+
+.selected_option_box {
+    width: 100%;
+    background: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.selected_item_title {
+    width: 100%;
+}
+.selected_option_bot {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.selected_count_box {
+    float: left;
+}
+.selected_count_btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+}
+.selected_count {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+
+.selected_price_box {
+    float: right;
+    height: 50px;
+    align-items: center;
+}
+.selected_o_price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #555;
+    text-align: right;
+}
+.selected_s_price {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.final_box {
+    width: 100%;
+    margin-top: 30px;
+}
+.final_price {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.final_count {
+    font-size: 18px;
+}
+
+.purchase_box {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.purchase_btn {
+    height: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.add_cart {
+    width: calc(40% - 10px);
+    color: #fff;
+    background: #000;
+}
+.buy_now,
+.wish_list {
+    width: calc((60% - 10px) / 2);
+    color: #999;
+    border: 1px solid #dedede;
+}
+.buy_now {
+    background: #efefef;
+}
+.wish_list {
+    margin-right: 0;
+}
+
+
+.item_info_bot {
+    width: 100%;
+    margin-top: 50px;
+}
+.item_tab_menu {
+    width: 100%;
+    /* height: 60px; */
+    height: 59px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: center;
+}
+.btn_section {
+    width: calc((100% - 200px) / 4);
+    height: 100%;
+    color: #777777;
+    background: #f3f3f3;
+}
+.item_tab_active {
+    background: #fff;
+    color: #000;
+    border: 1px solid;
+    border-bottom: none;
+}
+.btn_section > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sec_inner_box {
+    text-align: center;
+    padding: 50px 0;
+}
+.sec_inner_box > img {
+    width: 100%;
+}
+.inner_txt {
+    width: 100%;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.return_info {
+    text-align: left;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.return_info_title {
+    font-weight: 900;
+    margin: 20px 0 10px;
+}
+.return_info_desc {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .main > .contents_area {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        padding-top: 100px;
+    }
+    .item_img_box {
+        width: 40%;
+    }
+    .item_img_box > img {
+        width: 100%;
+    }
+    .item_info_top_R {
+        width: 60%;
+    }
+    .item_title {
+        font-size: 28px;
+    }
+    .selected_count_btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .selected_count {
+        height: 40px;
+        line-height: 40px;
+    }
+    .selected_price_box {
+        height: 40px;
+    }
+    .final_price {
+        font-size: 28px;
+    }
+    .final_count {
+        font-size: 16px;
+    }
+    .purchase_box {
+        font-size: 16px;
+    }
+    .btn_section {
+        width: calc((100% - 100px) / 4);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main {
+        padding-top: 50px;
+    }
+    .item_img_box {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+    .item_info_top_R {
+        width: 100%;
+        float: none;
+    }
+    .item_title,
+    .item_desc,
+    table,
+    .final_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .item_title,
+    .item_desc {
+        text-align: center;
+    }
+    td:nth-child(1) {
+        width: 25%;
+    }
+    .btn_section {
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main > .contents_area {
+        padding: 0;
+    }
+    .item_img_box {
+        width: 80%;
+    }
+    td:nth-child(1) {
+        width: 40%;
+    }
+    .item_title,
+    .final_price {
+        font-size: 20px;
+    }
+    .item_desc,
+    .purchase_box {
+        font-size: 14px;
+    }
+    .purchase_box {
+        height: 50px;
+        line-height: 50px;
+    }
+    .item_tab_menu {
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn_section {
+        font-size: 12px;
+    }
+
+    .return_info_title {
+        font-size: 14px;
+    }
+    .return_info_desc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .item_title,
+    .item_desc,
+    table,
+    .final_box {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .selected_option_box {
+        padding: 20px 10px;
+    }
+
+    .selected_count {
+        width: 50px;
+    }
+    .final_box {
+        font-size: 14px;
+    }
+    .final_price {
+        font-size: 18px;
+    }
+    .final_count {
+        font-size: 14px;
+    }
+}
